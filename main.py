@@ -5,7 +5,7 @@ file_name = ("tasks.json")
 
 def load_task():
     if Path(file_name).exists():
-        with open(x, "r", encoding="utf-8") as file:
+        with open(file_name, "r", encoding="utf-8") as file:
             return json.load(file)
     return []
 
