@@ -1,0 +1,4 @@
+.idea/
+.venv/
+tasks.json
+__pycache__/
